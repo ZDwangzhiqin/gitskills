@@ -19,5 +19,9 @@ struct FileParam{
 	std::wstring m_fileName;
 	std::wstring m_filePath;
 };
-
+struct SearchParam{
+	std::wstring m_path;
+	std::vector<std::wstring> m_fileTypes;
+	int m_depth;
+};
 #endif // END DLLPATH_H_
